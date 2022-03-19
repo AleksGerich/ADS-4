@@ -78,11 +78,11 @@ int countPairs3(int *arr, int len, int value) {
         while ((l <= r) && (flag != true)) {
             mid = (l + r) / 2;
             if (r-l+1 == 3) {
-                if (arr[mid] == sec) {
+                if (arr[mid + 1] == sec) {
                     count++;
                     flag = true;
                 }
-                if (arr[mid] == sec) {
+                if (arr[mid - 1] == sec) {
                     count++;
                     flag = true;
                 }
