@@ -1,5 +1,5 @@
 // Copyright 2021 NNTU-CS
-int countPairs1(int *arr,int len,int value) { 
+int countPairs1(int *arr, int len, int value) {
     int count = 0;
     int tmp = 0;
     for (int i = 0; i < len; i++) {
@@ -21,7 +21,7 @@ int countPairs1(int *arr,int len,int value) {
     return count;
 }
 
-int countPairs2(int *arr,int len,int value) {
+int countPairs2(int *arr, int len, int value) {
     int count = 0, r;
     int tmp = 0;
     for (int i = 0; i < len; i++) {
